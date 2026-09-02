@@ -1,0 +1,71 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastro de Alunos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <h1>Cadastro de Alunos</h1>
+
+        <section class="formulario">
+
+            <h2>Informações do aluno</h2>
+
+            <label for="nome">Nome:</label>
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite o nome do aluno"
+            >
+
+            <label for="idade">Idade:</label>
+            <input
+                type="number"
+                id="idade"
+                placeholder="Digite a idade"
+            >
+
+            <button id="btnCadastrar">Cadastrar</button>
+
+            <p id="mensagem"></p>
+
+        </section>
+
+        <section class="informacoes">
+
+            <h2>Informações do projeto</h2>
+
+            <p>Nome: <span id="nomeInfo"></span></p>
+            <p>Idade: <span id="idadeInfo"></span></p>
+            <p>Curso: <span id="cursoInfo"></span></p>
+
+        </section>
+
+        <section class="resultado">
+
+            <h2>Alunos cadastrados</h2>
+
+            <p id="totalAlunos">Total de alunos: 0</p>
+
+            <ul id="listaAlunos"></ul>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
